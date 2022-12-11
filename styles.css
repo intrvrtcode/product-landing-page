@@ -278,6 +278,31 @@ footer p {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  #about {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 30px;
+    height: auto;
+  }
+
+  #services {
+    flex-direction: column;
+  }
+
+  .service-container {
+    width: 100%;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  .half {
+    width: 100%;
+  }
+}
+
 
 
 
