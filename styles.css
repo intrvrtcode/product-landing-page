@@ -301,6 +301,10 @@ footer p {
   .half {
     width: 100%;
   }
+
+  #nav-bar {
+    display: none;
+  }
 }
 
 
